@@ -1,0 +1,8 @@
+
+Move : WASD
+Aim : RMB
+Shoot : LMB
+Interact : E
+Inventory : I
+Pause: Esc
+
