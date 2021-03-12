@@ -2,7 +2,7 @@
 
 '''Game settings'''
 current_level = 0
-fps = 31
+fps = 60
 caption = "RetroStrike Beta"
 mode = 1
 volume = 1
@@ -35,8 +35,8 @@ playing_tutorial = False
 
 
 '''Canvas settings'''
-canvas_target_width = 1366    #1366
-canvas_target_height = 758    #768
+canvas_target_width = 1920    #horizontal resolution 
+canvas_target_height = 1080    #vertical resolution
 #Below this point are the non-configurable canvas variables.
 canvas_actual_width = 0
 canvas_map_width = None
@@ -52,7 +52,7 @@ resolution = 1920
 fov = 60
 render = 10
 shade = False
-shade_rgba = (0,0,0,255)
+shade_rgba = (5,5,5,255)
 shade_visibility = 1000
 
 #Below this point are the non-configurable raycasting variables.
@@ -77,8 +77,8 @@ end_angle = 0
 
 '''Player settings'''
 #Speed in px/s
-player_speed = 256
-sensitivity = 0.25
+player_speed = 123
+sensitivity = 0.33
 player_angle = 270
 og_player_health = 25
 og_player_armor = 5
